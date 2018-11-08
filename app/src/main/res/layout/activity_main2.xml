@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/img">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="cursive"
+        android:text="LOGIN"
+        android:textColor="@color/pale_turquoise"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="cursive"
+        android:text="Email"
+        android:textColor="@color/pale_turquoise"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textview1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/edit_ro"
+        android:fontFamily="cursive"
+        android:hint="Enter your email"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="cursive"
+        android:text="Password"
+        android:textColor="@color/pale_turquoise"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textview2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:background="@drawable/edit_ro"
+        android:fontFamily="cursive"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext2"
+        android:layout_alignStart="@+id/edittext2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edit_ro"
+        android:fontFamily="cursive"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textview1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="cursive"
+        android:text="sign up"
+        android:textColor="@color/floral_white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="cursive"
+        android:text="forgot password?"
+        android:textColor="@color/floral_white"
+        android:textSize="25dp" />
+
+</RelativeLayout>
